@@ -1,0 +1,47 @@
+* Expenses 费用 -------------------------------------------------------------------
+
+; 常见分类
+1997-09-07 open Expenses:EatAndDrink                        ; 餐饮美食
+1997-09-07 open Expenses:Clothing                           ; 服饰装扮
+1997-09-07 open Expenses:DailyUtilities                     ; 日用百货
+1997-09-07 open Expenses:HomeDecoration                     ; 家居家装
+1997-09-07 open Expenses:Digital                            ; 数码电器
+1997-09-07 open Expenses:BeautyHair                         ; 美容美发
+1997-09-07 open Expenses:Rent                               ; 住房物业
+1997-09-07 open Expenses:Hotel                              ; 酒店
+1997-09-07 open Expenses:Transport                          ; 交通出行
+1997-09-07 open Expenses:Entertainment                      ; 文化休闲
+1997-09-07 open Expenses:Education                          ; 教育培训
+1997-09-07 open Expenses:Health                             ; 医疗健康
+1997-09-07 open Expenses:Donation                           ; 公益捐赠
+1997-09-07 open Expenses:Telecom                            ; 通信费用
+1997-09-07 open Expenses:Law                                ; 法律服务
+1997-09-07 open Expenses:SportsFitness                      ; 运动健身
+1997-09-07 open Expenses:Relationship:Invitation            ; 人际关系：请客（吃饭、交通、住宿等）
+1997-09-07 open Expenses:Relationship:Gifts                 ; 人际关系：礼物
+1997-09-07 open Expenses:Relationship:GiftMoney             ; 人际关系：礼金，红包
+1997-09-07 open Expenses:Relationship:Parents               ; 人际关系：孝敬父母
+
+; 个税社保
+2021-09-07 open Expenses:Government:Unemploy                ; Un-Employ Insurance EE 失业保险 个人
+2021-09-07 open Expenses:Government:IncomeTax               ; IIT Salary EE 应纳税额 Individual Income Tax
+2021-09-07 open Expenses:Government:BonusTax                ; IIT Bonus 奖金个税
+
+; 工资
+2021-09-07 open Expenses:ARMC:Adjustment                    ; Other Adjustment After Tax 其他税后调整
+2021-09-07 open Expenses:ARMC:UnionFee                      ; Union Fee 工会费
+
+; 投资
+2021-01-01 open Expenses:Investment:Commissions             ; 交易佣金
+2021-01-01 open Expenses:Investment:RoundUp                 ; 四舍五入误差
+
+; 资产
+1997-09-07 open Expenses:AssetDisposal                      ; 资产处置费用
+1997-09-07 open Expenses:AssetImpairment:Other              ; 资产减值
+1997-09-07 open Expenses:AssetDepreciation                  ; 资产折旧
+
+; 保险
+1997-09-07 open Expenses:Insurance                          ; 保险保费
+
+; 其他
+1997-09-07 open Expenses:TransferOut                        ; 转出，营业外支出，TransferOut = TransferIn

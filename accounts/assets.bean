@@ -1,0 +1,81 @@
+* Cash 现金资产 ----------------------------------------------------------------
+
+1997-09-07 open Assets:Cash:Paper                           ; 纸币
+1997-09-07 open Assets:Cash:Alipay                          ; 支付宝
+1997-09-07 open Assets:Cash:WeChat                          ; 微信
+; 招商银行
+1997-09-07 open Assets:Cash:CMBC-5189:Cash
+1997-09-07 open Assets:Cash:CMBC-5189:Positions             "FIFO"
+
+; 中国银行
+1997-09-07 open Assets:Cash:BKCH-1844
+1997-09-07 open Assets:Cash:BKCHHK-126-139                  HKD, USD
+
+; 工商银行
+; 建设银行
+; 邮储银行
+
+; 贵金属
+2024-11-01 open Assets:Gold
+
+
+* 固定资产 ---------------------------------------------------------------------
+
+; 资产管理制度，2024版。
+; 固定资产定义：单价大于1000元，使用年限大于1年，为生产运营的目的持有。
+; 预计使用年限（一般3年），直线折旧法，残值为零。每月折旧。
+; 房
+; 车
+; 电脑
+; 电视
+; 贝斯
+1997-09-07 open Assets:Asset:Other                          ; 其他资产
+
+
+* Social Security 社保 ---------------------------------------------------------
+
+; 深圳市
+2023-07-07 open Assets:Government:HousingFund:SZ            ; Housing Fund EE 住房公积金＿个人
+2023-07-07 open Assets:Government:Medical:SZ                ; Medical Insurance EE 医疗保险＿个人
+2023-07-07 open Assets:Government:Pension:SZ                ; Pension Insurance EE 养老保险＿个人
+
+; 上海市
+2021-09-07 open Assets:Government:HousingFund:SH            ; Housing Fund EE 住房公积金＿个人
+2021-09-07 open Assets:Government:HousingFund:SH-S          ; Supplementary Housing Fund EE 补充住房公积金＿个人
+2021-09-07 open Assets:Government:Medical:SH                ; Medical Insurance EE 医疗保险＿个人
+2021-09-07 open Assets:Government:Pension:SH                ; Pension Insurance EE 养老保险＿个人
+
+
+* Investment 金融资产 ----------------------------------------------------------
+
+; 富途证券
+2021-01-01 open Assets:Investment:FutuSecurity:Cash
+2021-01-01 open Assets:Investment:FutuSecurity:Positions    "FIFO"
+
+; 徽商期货
+2024-04-25 open Assets:Investment:HuishangFuture:Positions  "FIFO"
+
+; 银河证券
+2021-01-01 open Assets:Investment:GalaxySecurity:Cash
+2021-01-01 open Assets:Investment:GalaxySecurity:Positions  "FIFO"
+
+; 东方财富证券
+2021-01-01 open Assets:Investment:EastSecurity:Cash
+2021-01-01 open Assets:Investment:EastSecurity:Positions    "FIFO"
+
+; 雪球基金
+2021-01-01 open Assets:Investment:SnowballFund:Cash
+2021-01-01 open Assets:Investment:SnowballFund:Positions    "FIFO"
+
+; 天天基金
+2021-01-01 open Assets:Investment:TiantianFund:Cash
+2021-01-01 open Assets:Investment:TiantianFund:Positions    "FIFO"
+
+
+* Receivables 应收账款 ---------------------------------------------------------
+
+2024-07-18 open Assets:Receivables:Landlord
+
+* Unknown 其他资产 -------------------------------------------------------------
+
+1997-01-01 open Assets:Unknown                              ; 等待分类
